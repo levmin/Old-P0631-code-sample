@@ -28,6 +28,7 @@ namespace std {
 }
 
 #include <limits>
+#include <climits>
 
 /*
    High precision floating point type 
