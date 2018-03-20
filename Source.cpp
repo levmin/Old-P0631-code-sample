@@ -100,3 +100,6 @@ template<> inline constexpr myfptype std::piv<myfptype>{  3'141'592'653'589'793'
 [[maybe_unused]] constexpr myfptype hp_pi = std::piv<myfptype> ;
 
 int main() {}
+
+static_assert(std::pi == 3.141'592'653'589'793'3);
+static_assert(std::pi == 3.141'592'653'589'793'0);
